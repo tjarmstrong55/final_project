@@ -1,0 +1,100 @@
+header {
+  display: flex;
+  align-items: center;         
+  justify-content: flex-start; 
+  gap: 2rem;                   
+  padding: 10px 20px;
+}
+
+header h1 {
+    color: black;
+    background: linear-gradient(135deg, #fce4ec, #e3f2fd, #ffe0b2);
+    font-size: 200%;
+    padding: .5rem 1rem;
+    border-radius: 14px;
+}
+
+.hero {
+  display: grid;
+  columns: 2;
+  grid-template-columns: 1fr 1fr;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;                
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  transition: transform .25s ease, backgroound 0.2s ease;
+  display: inline-block;
+}
+
+nav a:hover {
+    background: linear-gradient(#fce4ec, #e3f2fd, #ffe0b2);
+    color: #000;   
+    border-radius: 20px;   
+    transform: scale(1.2);    
+}
+
+main {
+  color: white;
+}
+
+main img {
+    border-radius: 15px;
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 4px solid #fff;
+}
+
+body {
+    background: #000;
+    color: white;
+}
+
+/* The body::before section took me awhile to get, I wanted a really subtle background instead of a solid color */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle at top left, rgba(255,182,193,0.15), transparent 60%),
+                radial-gradient(circle at bottom right, rgba(173,216,230,0.15), transparent 70%);
+    pointer-events: none;
+}
+
+.bbh-sans-hegarty-regular {
+  font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+}
+
+footer a {
+    font-size: 2rem;
+    color: #ffffff;   
+}
+
+footer a:hover {
+    color: #fce4ec;   
+}
+
