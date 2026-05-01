@@ -1,30 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects – TJ Armstrong</title>
+    <title>Projects | TJ Armstrong</title>
+    <meta name="description" content="Projects by TJ Armstrong including Solid Comics, ACH DataWorks, Solid Ledger, Coolax, and analytics side projects.">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Oswald:wght@200..700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
 <body>
     <div class="wrapper">
-        <!-- HEADER -->
         <header>
-            <div class="logo-badge">
-                <span class="logo-text">TJ Armstrong</span>
-            </div>
-            <nav>
+            <a class="logo-badge" href="index.html"><span class="logo-text">TJ Armstrong</span></a>
+            <nav aria-label="Main navigation">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a class="active" href="projects.html">PROJECTS</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
@@ -32,109 +27,62 @@
         </header>
 
         <main class="main-grid">
-
-            <!-- CURRENT PROJECTS -->
-            <section class="content-section" id="current-projects">
-                <div class="section-flex">
-                    <img src="images/solidcomicslogo.png" alt="Solid Comics operations" class="section-image">
-
-                    <div class="section-text">
-                        <h3>Solid Comics (Current)</h3>
-                        <p>
-                            I manage the operational and financial side of Solid Comics, including LLC setup,
-                            vendor licensing, tax filings, and overall business structure. I create pricing models,
-                            oversee revenue strategies for online listings and auctions, and ensure compliance and
-                            financial organization.
-                            <br><br>
-                            My business partner leads product acquisition and day-to-day fulfillment, while I
-                            focus on systems, financials, and long-term growth strategy.
-                        </p>
-                    </div>
+            <section class="page-hero">
+                <div class="page-hero-content">
+                    <div class="eyebrow">Selected work</div>
+                    <h1 class="page-title">Projects with finance, analytics, and real business execution.</h1>
+                    <p class="page-summary">These projects show how I apply finance, operations, data tools, and entrepreneurial thinking outside of coursework.</p>
                 </div>
             </section>
 
-            <!-- ACH DATAWORKS -->
-            <section class="content-section">
-                <div class="section-flex section-flex-reverse">
-                    <img src="images/achdataworks.png" alt="ACH DataWorks project" class="section-image">
+            <section class="projects-grid">
+                <article class="project-card">
+                    <span class="project-meta">Current</span>
+                    <img src="images/solidcomicslogo.png" alt="Solid Comics logo">
+                    <h3 class="card-title">Solid Comics</h3>
+                    <p class="card-copy">I manage the operational and financial side of Solid Comics, including LLC setup, vendor licensing, tax filings, pricing models, compliance, and revenue strategy for online listings and auctions.</p>
+                    <div class="tag-row"><span class="tag">Operations</span><span class="tag">Pricing</span><span class="tag">Compliance</span></div>
+                </article>
 
-                    <div class="section-text">
-                        <h3>ACH DataWorks (Current)</h3>
-                        <p>
-                            ACH DataWorks is my data analytics brand focused on delivering financial insights,
-                            performance dashboards, and data-driven recommendations to individuals and small
-                            businesses. The goal is to offer affordable, practical analytics that help entrepreneurs
-                            make better decisions and uncover growth opportunities.
-                        </p>
-                    </div>
-                </div>
+                <article class="project-card">
+                    <span class="project-meta">Current</span>
+                    <img src="images/achdataworks.png" alt="ACH DataWorks logo">
+                    <h3 class="card-title">ACH DataWorks</h3>
+                    <p class="card-copy">ACH DataWorks is my analytics brand focused on affordable dashboards, financial insights, and practical recommendations for small businesses and entrepreneurs.</p>
+                    <div class="tag-row"><span class="tag">Dashboards</span><span class="tag">Analytics</span><span class="tag">Decision Support</span></div>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-meta">In Development</span>
+                    <img src="images/solidledger.png" alt="Solid Ledger application concept">
+                    <h3 class="card-title">Solid Ledger</h3>
+                    <p class="card-copy">A custom financial and inventory tracking application for small product-based businesses. The concept uses Python, SQLAlchemy, and PySide6 to organize invoices, receipts, transactions, and customer records.</p>
+                    <div class="tag-row"><span class="tag">Python</span><span class="tag">SQLAlchemy</span><span class="tag">Business Tools</span></div>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-meta">2017–2022</span>
+                    <img src="images/coolaxlogo.png" alt="Coolax logo">
+                    <h3 class="card-title">Coolax</h3>
+                    <p class="card-copy">My first business, where I handled product sourcing, sales, budgeting, marketing, fulfillment, and day-to-day management. It shaped my approach to discipline, financial thinking, and entrepreneurship.</p>
+                    <div class="tag-row"><span class="tag">Entrepreneurship</span><span class="tag">Sales</span><span class="tag">Fulfillment</span></div>
+                </article>
+
+                <article class="project-card">
+                    <span class="project-meta">Ongoing</span>
+                    <img src="images/sideprojects.png" alt="Coding tools and scripts">
+                    <h3 class="card-title">Side Projects</h3>
+                    <p class="card-copy">Smaller analytics and development projects, including custom financial calculators, Python scripts, portfolio websites, UI layouts, and game development experiments.</p>
+                    <div class="tag-row"><span class="tag">Excel</span><span class="tag">Python</span><span class="tag">Web Design</span></div>
+                </article>
             </section>
-
-            <!-- SOLID LEDGER -->
-            <section class="content-section">
-                <div class="section-flex">
-                    <img src="images/solidledger.png" alt="Solid Ledger application" class="section-image">
-
-                    <div class="section-text">
-                        <h3>Solid Ledger (In Development)</h3>
-                        <p>
-                            Solid Ledger is a custom-built financial and inventory tracking application designed for
-                            small product-based businesses. Built with Python, SQLAlchemy, and PySide6, it streamlines
-                            invoices, receipts, transaction logs, and customer management. The goal is to create an
-                            intuitive alternative to expensive SaaS tools.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- PAST PROJECTS -->
-            <section class="content-section">
-                <div class="section-flex section-flex-reverse">
-                    <img src="images/coolaxlogo.png" alt="Coolax brand" class="section-image">
-
-                    <div class="section-text">
-                        <h3>Coolax (2017–2022)</h3>
-                        <p>
-                            Coolax was my first business. I handled everything—product sourcing, finances, budgeting,
-                            sales, marketing, and fulfillment—gaining real experience in business operations at a young
-                            age. Managing this business helped form my discipline, financial thinking, and approach to
-                            entrepreneurship today.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- SIDE PROJECTS -->
-            <section class="content-section">
-                <div class="section-flex">
-                    <img src="images/sideprojects.png" alt="Coding tools and scripts" class="section-image">
-
-                    <div class="section-text">
-                        <h3>Side Projects</h3>
-                        <p>
-                            I frequently work on smaller development and analytics projects, including:
-                            <ul>
-                                <li>Custom financial calculators & analysis tools</li>
-                                <li>Python automation scripts</li>
-                                <li>Portfolio websites & UI layouts</li>
-                                <li>Game development experiments & prototypes</li>
-                            </ul>
-                            These projects help me learn new skills and test ideas while building a versatile technical
-                            foundation.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
         </main>
 
-        <!-- FOOTER -->
         <footer>
-            <a href="https://instagram.com/tjarmstrong22/"> <i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/trent-armstrong55/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://x.com/DarnyStreams"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://instagram.com/tjarmstrong22/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/trent-armstrong55/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/DarnyStreams" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
         </footer>
     </div>
 </body>
-
 </html>
