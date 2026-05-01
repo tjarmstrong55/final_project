@@ -1,129 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About – TJ Armstrong</title>
+    <title>About | TJ Armstrong</title>
+    <meta name="description" content="About TJ Armstrong, finance student at the University of Cincinnati focused on finance, economics, analytics, operations, and entrepreneurship.">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Oswald:wght@200..700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
 <body>
     <div class="wrapper">
-
-        <!-- HEADER -->
         <header>
-            <div class="logo-badge">
-                <span class="logo-text">TJ Armstrong</span>
-            </div>
-            <nav>
+            <a class="logo-badge" href="index.html"><span class="logo-text">TJ Armstrong</span></a>
+            <nav aria-label="Main navigation">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="projects.html">PROJECTS</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a class="active" href="about.html">ABOUT</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
 
         <main class="main-grid">
+            <section class="page-hero">
+                <div class="page-hero-content">
+                    <div class="eyebrow">About me</div>
+                    <h1 class="page-title">I build practical systems around finance, data, and business operations.</h1>
+                    <p class="page-summary">My background combines finance coursework, economics, entrepreneurship, and self-directed technical projects. I am interested in work that requires analysis, execution, and clear communication.</p>
+                </div>
+            </section>
 
-            <!-- SECTION 1: BACKGROUND -->
             <section class="content-section">
                 <div class="section-flex">
-                    <img src="images/tjgraduation.jpg" alt="TJ Armstrong graduation" class="section-image"> <!-- placeholder image -->
-
+                    <img src="images/tjgraduation.jpg" alt="TJ Armstrong graduation" class="section-image">
                     <div class="section-text">
                         <h3>My Background</h3>
-                        <p>
-                            I am a Finance major at the University of Cincinnati with a minor in Economics. My academic
-                            work centers on financial modeling, investment analysis, and understanding how data can be
-                            used to guide stronger business decisions.
-                            <br><br>
-                            Outside of coursework, I actively build real-world experience through my businesses—Solid
-                            Comics, ACH DataWorks, and my ongoing development projects. Each of these ventures pushes me
-                            to learn more about financial strategy, operations, and the practical side of running a
-                            business.
-                        </p>
+                        <p>I am a Finance major at the University of Cincinnati with a focus on financial modeling, investment analysis, economics, and data-driven decision-making. Outside of coursework, I build experience through Solid Comics, ACH DataWorks, and technical projects.</p>
+                        <div class="tag-row"><span class="tag">University of Cincinnati</span><span class="tag">Finance</span><span class="tag">Economics</span></div>
                     </div>
                 </div>
             </section>
 
-            <!-- SECTION 2: SKILLS -->
+            <section class="skills-grid">
+                <article class="skill-card">
+                    <div class="icon">F</div>
+                    <h3>Finance</h3>
+                    <p>Financial modeling, valuation, budgeting, forecasting, pricing strategy, and financial planning.</p>
+                </article>
+                <article class="skill-card">
+                    <div class="icon">D</div>
+                    <h3>Data</h3>
+                    <p>Excel analysis, dashboards, Python, SQL, data cleanup, reporting, and decision-support tools.</p>
+                </article>
+                <article class="skill-card">
+                    <div class="icon">O</div>
+                    <h3>Operations</h3>
+                    <p>Business structure, workflow design, compliance, documentation, inventory thinking, and process improvement.</p>
+                </article>
+            </section>
+
             <section class="content-section">
                 <div class="section-flex section-flex-reverse">
-                    <img src="images/skillsexcelexample.png" alt="Financial analysis and data work" class="section-image"> <!-- placeholder image -->
-
+                    <img src="images/skillsexcelexample.png" alt="Financial analysis and data work" class="section-image">
                     <div class="section-text">
-                        <h3>My Skills</h3>
-                        <p>
-                            My strengths fall at the intersection of finance, analytics, and systems. I enjoy breaking
-                            down complex information and rebuilding it into simple, useful insights. Some areas I focus
-                            on include:
-                        </p>
-
-                        <ul>
-                            <li>Financial modeling & valuation</li>
-                            <li>Pricing strategy & revenue optimization</li>
-                            <li>Data analytics using Python, Excel, and SQL</li>
-                            <li>Business operations & workflow design</li>
-                            <li>Budgeting, forecasting, and financial planning</li>
-                            <li>Automation tools & custom-built analytics solutions</li>
-                        </ul>
+                        <h3>How I Work</h3>
+                        <p>I like breaking down messy information and rebuilding it into something useful. That could mean cleaning up a spreadsheet, building a pricing model, designing a dashboard, or creating a more organized workflow for a small business.</p>
                     </div>
                 </div>
             </section>
 
-            <!-- SECTION 3: WHAT DRIVES ME -->
             <section class="content-section">
                 <div class="section-flex">
-                    <img src="images/tjfarm.jpg" alt="Working at a desk with data and notes" class="section-image"> <!-- placeholder image -->
-
+                    <img src="images/tjfarm.jpg" alt="Personal background and work ethic" class="section-image">
                     <div class="section-text">
                         <h3>What Drives Me</h3>
-                        <p>
-                            I’m motivated by building things, whether it be businesses, systems, tools, and solutions that actually
-                            make people’s work easier. I’ve always been hands-on, whether it was running my first
-                            business in middle school or developing analytics dashboards today.
-                            <br><br>
-                            I enjoy long-term thinking, strategic planning, and the challenge of taking an idea from
-                            concept to a fully functioning operation. My goal is always the same: find the most
-                            efficient, practical way to get something done—and do it at a high standard.
-                        </p>
+                        <p>I am motivated by building things that actually work: businesses, systems, tools, and practical solutions. I care about long-term thinking, clear execution, and finding efficient ways to solve problems without overcomplicating them.</p>
                     </div>
                 </div>
             </section>
 
-            <!-- SECTION 4: OUTSIDE OF WORK -->
             <section class="content-section">
                 <div class="section-flex section-flex-reverse">
-                    <img src="images/tjfootball.jpg" alt="TJ Armstrong personal interests" class="section-image">
-
+                    <img src="images/tjfootball.jpg" alt="TJ Armstrong football and personal interests" class="section-image">
                     <div class="section-text">
                         <h3>Outside of Work</h3>
-                        <p>
-                            I like to stay balanced with a mix of hobbies that keep me informed, creative, and active. I spend a lot of time reading and following current events, especially anything tied to business, economics, or technology. 
-                            <br></br>
-                            I also enjoy playing video games and watching movies and TV as a way to unwind and get inspired creatively. And when I’m not at my desk, I’m usually watching or coaching football — it’s a big part of my life and something I genuinely enjoy being involved in.
-                        </p>
+                        <p>I follow business, economics, technology, and current events. I also enjoy gaming, movies, and coaching football. Football has been a major part of my life and influences how I think about discipline, leadership, and preparation.</p>
                     </div>
                 </div>
             </section>
         </main>
 
-        <!-- FOOTER -->
         <footer>
-            <a href="https://instagram.com/tjarmstrong22/"> <i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/trent-armstrong55/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://x.com/DarnyStreams"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://instagram.com/tjarmstrong22/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/trent-armstrong55/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/DarnyStreams" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
         </footer>
-
     </div>
 </body>
 </html>
